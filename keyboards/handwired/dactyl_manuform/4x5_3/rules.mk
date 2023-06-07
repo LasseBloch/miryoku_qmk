@@ -11,3 +11,6 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 SPLIT_KEYBOARD = yes
+MCU = RP2040
+BOOTLOADER = rp2040
+SERIAL_DRIVER = vendor
