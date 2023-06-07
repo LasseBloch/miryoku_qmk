@@ -35,5 +35,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED_MASK 0U
 
 #define MATRIX_COL_PINS { GP9, GP12, GP13, GP14, GP15 }
-#define MATRIX_ROW_PINS { GP3, GP4, GP5, GP6, GP7 }
+#define MATRIX_ROW_PINS { GP3, GP4, GP5, GP6 }
 #define DIODE_DIRECTION COL2ROW
