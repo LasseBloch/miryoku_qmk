@@ -9,6 +9,7 @@
 #define MIRYOKU_EXTRA_QWERTY
 #define MIRYOKU_TAP_QWERTY
 #define MIRYOKU_CLIPBOARD MAC
+#define MIRYOKU_NAV_VI
 
 #define MIRYOKU_ALTERNATIVES_BASE_QWERTY \
 KC_Q,              KC_W,              KC_E,              KC_R,              KC_T,              KC_Y,              KC_U,              KC_I,              KC_O,              KC_P,              \
