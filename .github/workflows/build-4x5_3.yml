@@ -3,6 +3,7 @@
 
 name: 'Build dactyl_manuform 4x5_3'
 on:
+  - push
   - workflow_dispatch
 jobs:
   build:
