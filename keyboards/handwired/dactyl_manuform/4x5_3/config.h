@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #pragma once
 
 #define USE_SERIAL
-#define SPLIT_HAND_PIN      GP26  // high = left, low = right
+#define MASTER_RIGHT
 
 // Using Serial instead of I2C
 #define SERIAL_USART_FULL_DUPLEX 
