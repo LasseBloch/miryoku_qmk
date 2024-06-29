@@ -39,43 +39,6 @@ MIRYOKU_LAYER_LIST
 #undef MIRYOKU_X
 };
 
-// hacky macros
-// TODO: where should they be placed?
-enum custom_keycodes {
-    M_PREV = SAFE_RANGE,
-    M_NXT,
-    T_PREV,
-    T_NXT
-};
-
-bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    switch (keycode) {
-    case M_PREV:
-        if (record->event.pressed) {
-            SEND_STRING(SS_LCTL(SS_TAP(X_LEFT)));
-        }
-        break;
-
-    case M_NXT:
-        if (record->event.pressed) {
-            SEND_STRING(SS_LCTL(SS_TAP(X_RIGHT)));
-        }
-        break;
-
-    case T_PREV:
-        if (record->event.pressed) {
-            SEND_STRING(SS_LCTL(SS_LALT("h")));
-        }
-        break;
-
-    case T_NXT:
-        if (record->event.pressed) {
-            SEND_STRING(SS_LCTL(SS_LALT("l")));
-        }
-        break;
-    }
-    return true;
-}
 
 // keymap
 
