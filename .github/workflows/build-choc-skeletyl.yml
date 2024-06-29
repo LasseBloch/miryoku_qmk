@@ -10,7 +10,4 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       keyboard: '["handwired/choc_skeletyl"]'
-      merge: '[
-        "qmk/qmk_firmware/master",
-        "qmk/qmk_firmware/develop"
-      ]'
+
