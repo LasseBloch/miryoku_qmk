@@ -1,8 +1,7 @@
 {
-    "url": "https://www.bastardkb.com/skeletyl",
-    "usb": {
-        "pid": "0x1830"
-    },
+    "manufacturer": "Bl0chs Garage",
+    "maintainer": "Lasse Bloch",
+    "url": "https://www.github.com/LasseBloch",
     "community_layouts": ["split_3x5_3"],
     "layouts": {
         "LAYOUT_split_3x5_3": {
@@ -46,9 +45,11 @@
             ]
         }
     },
-    "keyboard_name": "Test change me",
+    "keyboard_name": "choc_skeletyl",
     "usb": {
-        "device_version": "2.0.0"
+        "device_version": "1.0.0",
+        "pid": "0x1830",
+        "vid": "0xA8F8"
     },
     "split": {
         "soft_serial_pin": "GP1"

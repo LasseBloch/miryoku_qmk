@@ -38,11 +38,9 @@
 // #define SPLIT_HAND_PIN GP15
 // #define SPLIT_HAND_PIN_LOW_IS_LEFT  // High -> right, Low -> left.
 
-#define RGB_DI_PIN GP0
 
 /* Reset. */
 // TODO: Will this match with the PCB, yes I think
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 1000U
-#endif
