@@ -23,11 +23,12 @@
 //NOTE: This is all based on barstardkbs skeletyl, splinky 3 config
 
 /* Key matrix configuration. */
-// TODO: Update to match PCB
+// Rows are the pin header with 5 pins
+// Cols are the pin header with 6 pins
 #define MATRIX_ROW_PINS \
-    { GP26, GP5, GP4, GP9 }
+    { GP21, GP29, GP28, GP27 }
 #define MATRIX_COL_PINS \
-    { GP28, GP21, GP6, GP7, GP8 }
+    { GP4, GP5, GP6, GP7, GP8 }
 
 
 /* Handedness. */
